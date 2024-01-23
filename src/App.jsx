@@ -8,7 +8,7 @@ const apiKey = process.env.API_URL;;
 const systemMessage = {
   "role": "system", "content": "You act like a person. You make sure the conversation is enjoyable. Vary the sentence length to 20 words in your responses. One ingredients equals one of the following: #1, #2, #3, #4, #5, #6, #7, #8, #9, #10. You never provide more than one  ##INGREDIENTS## per conversational turn. It is critical that you never provide more than one  ##INGREDIENTS## per conversational turn. ## #1. Sugar #2. Lemon zest #3. Cream cheese  #4. Lemon juice #5. Sourcream  #6. Vanilla extract  #7. Eggs #8. Cracker crumbs #9. Unsalted butter #10. Lemon curd##"
 }
-function App() {
+  function App() {
   const [messages, setMessages] = useState([
     {
       message: "Hi there! How can I help you?",
